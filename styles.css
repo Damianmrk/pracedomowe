@@ -1,0 +1,138 @@
+.wrapper {
+    background-color: blue;
+    width: 640px;
+    height: 380px;
+    display: flex;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.portrait-column {
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+.papay {
+width: 100%;
+    height: 100%;
+}
+
+.information-column {
+    width: 60%;
+    background-color: #2b3944;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    border: 1px solid white;
+}
+
+.Name-information {
+    height: 50%;
+    background-color: #192028;
+}
+
+.John-Paul-II {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto', serif;
+    padding:10px;
+}
+
+.THE-POPE {
+    width: 160px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 60;
+    font-size: 20px;
+    color: #6487a2;
+    margin: 10px;
+}
+
+.contact-information {
+    height: 50%;
+    border: 2px rgb(253, 253, 253);
+    background-color: #2B3944;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+
+    .container {
+        width: 70%;
+        aspect-ratio: 2/1;
+        display: block;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: left;
+        text-decoration-line: underline;
+        display: flex;
+        font-style: normal;
+        font-family: 'Roboto', serif;
+        text-align: center;
+        justify-content: center;
+        grid-row-gap: 10px;
+
+        .tekst {
+
+            display: flex;
+            font-style: normal;
+            font-family: 'Roboto', serif;
+            font-size: 16px;
+            text-decoration-line: underline;
+            line-height: 34px;
+            color: white;
+            text-align: center;
+            justify-content: left;
+            grid-row-gap: 10px;
+        }
+
+        .ikona {
+            height: 28px;
+            width: 28px;
+            flex: 1;
+            displaY: flex;
+
+            .address {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 50px;
+                grid-row-gap: 30px;
+                margin: 5px 5px 5px 5px;
+                min-height: 30px;
+
+
+            }
+
+            .email {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 50px;
+                grid-row-gap: 30px;
+                margin: 5px 5px 5px 5px;
+
+
+            }
+
+            .phone {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding: 50px;
+                grid-row-gap: 30px;
+                margin: 5px 5px 5px 5px;
+
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
