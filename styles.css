@@ -3,10 +3,9 @@
     width: 640px;
     height: 380px;
     display: flex;
-    border: 2px solid rgb(253, 253, 253);
-    border-radius: 10px 10px 10px 10px;
+    border: 2px solid rgb(253, 253, 253, 253);
+    border-radius: 30px 30px 30px 30px;
 }
-
 .portrait-column {
     width: 40%;
     height: 100%;
@@ -31,6 +30,7 @@ width: 100%;
 }
 
 .John-Paul-II {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -58,78 +58,38 @@ width: 100%;
     border-top: 2px solid #ffffff;
     display: flex;
     text-align: center;
-    flex-direction: row;
-
-    .container {
-        width: 70%;
-        aspect-ratio: 2/1;
-        display: block;
-        grid-template-rows: 1fr 1fr 1fr;
-        align-items: left;
-        text-decoration-line: underline;
+    flex-direction: column;
+    justify-content: center;
+}
+ .contact-row {
         display: flex;
-        font-style: normal;
-        font-family: 'Roboto', serif;
-        text-align: center;
-        justify-content: center;
-        grid-row-gap: 10px;
+        flex-direction: row;
+        margin-left: 10px;
+    }
 
-        .tekst {
-
+.tekst {
             display: flex;
             font-style: normal;
             font-family: 'Roboto', serif;
             font-size: 16px;
-            text-decoration-line: underline;
             line-height: 34px;
+            width: 100%;
             color: white;
-            text-align: center;
-            justify-content: left;
-            grid-row-gap: 10px;
+            margin-left: 20px;
+            border-bottom: 1px solid white;
+
         }
 
         .ikona {
-            height: 28px;
-            width: 28px;
-            flex: 1;
-            displaY: flex;
-
-            .address {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding: 50px;
-                grid-row-gap: 30px;
-                margin: 5px 5px 5px 5px;
-                min-height: 30px;
-
-
-            }
-
-            .email {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding: 50px;
-                grid-row-gap: 30px;
-                margin: 5px 5px 5px 5px;
-
-
-            }
-
-            .phone {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding: 50px;
-                grid-row-gap: 30px;
-                margin: 5px 5px 5px 5px;
-
-
-            }
+            height: 25px;
+            width: 25px;
+            display: flex;
+            padding: 8px;
+            padding-left:10px;
         }
-    }
-}
+
+
+
 
 
 
