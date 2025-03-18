@@ -5,8 +5,9 @@
     background-color: white;
 
 }
+
 .img {
-    position: flex;
+    display: flex;
     border: 2px solid rgba(206, 13, 13, 0.979);
     border-radius: 4px;
 }
@@ -40,6 +41,7 @@
     background: #ffffff;
     padding: 20px;
     text-align: center;
+    list-style-type: disc;
 }
 
 .content {
@@ -54,6 +56,14 @@
     padding: 0.5%;
     margin: 1% 0;
     margin-bottom: 5%;
-    text-align: center;
+    text-align: left;
+    list-type-style: disc;
+    border-bottom: 1px solid black;
+< span style = "text decoration: underline;" >
 }
 
+
+
+.content {
+    text-align: center;
+}
