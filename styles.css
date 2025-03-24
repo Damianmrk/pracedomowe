@@ -1,98 +1,116 @@
-.wrapper {
-    background-color: blue;
-    width: 640px;
-    height: 380px;
+body {
     display: flex;
-    border: 2px solid rgb(253, 253, 253, 253);
-    border-radius: 30px 30px 30px 30px;
-}
-.portrait-column {
-    width: 40%;
-    height: 100%;
-    background-color: red;
-}
-.papay {
-width: 100%;
-    height: 100%;
-}
-
-.information-column {
-    width: 60%;
-    background-color: #2b3944;
-    font-family: 'Roboto', serif;
-    font-style: normal;
-    border: 1px solid white;
-}
-
-.Name-information {
-    height: 50%;
-    background-color: #192028;
-}
-
-.John-Paul-II {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: 'Roboto', serif;
-    padding:10px;
-}
-
-.THE-POPE {
-    width: 160px;
-    font-family: 'Roboto', serif;
-    font-style: normal;
-    font-weight: 60;
-    font-size: 20px;
-    color: #6487a2;
-    margin: 10px;
-}
-
-.contact-information {
-    height: 50%;
-    border: 2px rgb(253, 253, 253);
-    background-color: #2B3944;
-    border-top: 2px solid #ffffff;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
- .contact-row {
-        display: flex;
-        flex-direction: row;
-        margin-left: 10px;
-    }
 
-.tekst {
-            display: flex;
-            font-style: normal;
-            font-family: 'Roboto', serif;
-            font-size: 16px;
-            line-height: 34px;
-            width: 100%;
-            color: white;
-            margin-left: 20px;
-            border-bottom: 1px solid white;
+.credit-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+    color: black;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    position: relative;
+    display: flex;
+}
 
-        }
+.credit-card-front {
+    background-color: #2a57c1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    text-align: left;
+}
 
-        .ikona {
-            height: 25px;
-            width: 25px;
-            display: flex;
-            padding: 8px;
-            padding-left:10px;
-        }
+.credit-card-front .number {
+    color: black;
+    justify-content: left;
+    text-align: left;
+    padding : 25px;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+}
+.credit-card-front p {
+    display: block;
+}
+
+.credit-card-back {
+    background-color: #2a57c1;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 15px;
+
+}
+
+.credit-card-back .magnetic-strip {
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.credit-card-back .name {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-color: black;
+    border-radius: 5px;
+}
 
 
+.number {
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.information-wrapper p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+.credit-card-back .information-wrapper .name {
+    margin: 0;
+    display: flex;
+    font-size: 30px;
+    color: black;
+    background-color: gray;
+    height: 25px;
+    width: 50%;
+
+}
+.credit-card-back .information-wrapper .number {
+    display: flex;
+    text-aling: left;
+    position: relative top:10px; right: 10px;
+
+}
+
+.name {
+    font-size: 20px;
+    color: black;
+}
 
 
+.information-wrapper {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
 
-
-
-
+}
 
